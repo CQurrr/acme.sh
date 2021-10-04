@@ -35,6 +35,7 @@ jobs:
       CA: ${{ matrix.CA }}
       CA_EMAIL: ${{ matrix.CA_EMAIL }}
       TEST_LOCAL: 1
+      DEBUG: 2
       #The 80 port is used by Windows server, we have to use a custom port, tunnel will also use this port.
       Le_HTTPPort: 8888
     steps:
